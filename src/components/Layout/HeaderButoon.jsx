@@ -1,4 +1,3 @@
-import { Fragment } from "react";
 import CartIcon from "../Cart/CartIcon";
 import classes from "./HeaderButton.module.css";
 
@@ -8,7 +7,7 @@ const HeaderButton = (props) => {
       <span className={classes.icon}>
         <CartIcon />
       </span>
-      <span>Your Cart </span>
+      <span className={classes.cart}>Your Cart </span>
       <span className={classes.badge}>3</span>
     </button>
   );

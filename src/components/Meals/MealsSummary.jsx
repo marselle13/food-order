@@ -1,4 +1,3 @@
-import { Fragment } from "react";
 import classes from "./MealsSummary.module.css";
 const MealsSummary = () => {
   return (

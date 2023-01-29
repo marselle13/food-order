@@ -10,6 +10,7 @@ const AvailableMeals = () => {
         <ul>
           {DUMMY_MEALS.map((meal) => (
             <MealsItem
+              key={meal.id}
               id={meal.id}
               name={meal.name}
               des={meal.description}

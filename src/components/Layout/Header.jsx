@@ -1,5 +1,5 @@
 import classes from "./Header.module.css";
-import meals from "../assets/meals.jpg";
+import meals from "../../assets/meals.jpg";
 import React from "react";
 import HeaderButton from "./HeaderButoon";
 

@@ -53,6 +53,7 @@ const Checkout = (props) => {
       city: enteredCity,
       postalCode: enteredPostal,
     });
+    props.onClear();
   };
 
   return (

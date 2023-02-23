@@ -61,7 +61,11 @@ const Cart = (props) => {
         <span>{totalAmount}</span>
       </div>
       {isCheckout && (
-        <Checkout onConfirm={submitOrderHandler} onCancel={props.onHideCart} />
+        <Checkout
+          onConfirm={submitOrderHandler}
+          onCancel={props.onHideCart}
+          onClear={cartCtx.clearCart}
+        />
       )}
       {!isCheckout && (
         <div className={classes.actions}>
